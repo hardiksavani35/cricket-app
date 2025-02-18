@@ -1,0 +1,30 @@
+main {
+    background-image: url('./../public/assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full viewport height */
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    overflow: hidden; 
+    background-attachment: fixed;
+}
+
+.play-button {
+    padding: 20px 40px;
+    font-size: 34px;
+    background-color: #ff6347; /* Tomato color */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    font-weight: 800;
+}
+
+.play-button:hover {
+    background-color: #ff4500; /* Darker tomato color on hover */
+    transform: scale(1.1); /* Slightly enlarge button on hover */
+}
