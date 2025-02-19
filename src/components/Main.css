@@ -1,5 +1,5 @@
-main {
-    background-image: url('./../public/assets/background.jpg');
+.main-container {
+    background-image: url('./../../public/assets/background.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh; /* Full viewport height */
